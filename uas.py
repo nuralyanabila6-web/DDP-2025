@@ -105,5 +105,5 @@ def main_beressin():
             print("ERROR: Pilihan tidak valid. Silakan masukkan angka antara 1 sampai 4.")
         
 # Memanggil fungsi utama agar program berjalan
-if _name_ == "_main_":
+if __name__ == "_main_":
     main_beressin()
