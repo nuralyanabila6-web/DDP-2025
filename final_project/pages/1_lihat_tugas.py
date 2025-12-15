@@ -10,3 +10,5 @@ if len(st.session_state.list_tugas) == 0:
 else:
     for i, tugas in enumerate(st.session_state.list_tugas, 1):
         st.write(f"{i}. {tugas}")
+
+        #asdas
