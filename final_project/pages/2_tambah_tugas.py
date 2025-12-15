@@ -16,7 +16,7 @@ tugas_baru = st.text_input("Masukkan nama tugas:")
 if st.button("Tambah"):
     if tugas_baru.strip():
         st.session_state.list_tugas.append({
-            "nama tugas": tugas_baru.strip(),
+            "nama": tugas_baru.strip(),
             "selesai": False
         })
         st.success("Tugas berhasil ditambahkan!")
