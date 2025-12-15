@@ -31,5 +31,7 @@ else:
         if not st.session_state.list_tugas[index]["selesai"]:
             tandai_selesai(index)
             st.success("Tugas berhasil ditandai sebagai selesai!")
+            # Rerun agar tampilan daftar terupdate segera
+            st.experimental_rerun()
         else:
             st.warning("Tugas ini sudah selesai.")

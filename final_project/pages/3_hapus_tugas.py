@@ -13,4 +13,6 @@ else:
     if st.button("Hapus"):
         index = nomor_hapus - 1
         tugas = st.session_state.list_tugas.pop(index)
-        st.success(f"Tugas '{tugas}' berhasil dihapus!")
+        # Jika tugas adalah dict, gunakan nama tugas untuk pesan
+        nama_tugas = tugas.get("nama") if isinstance(tugas, dict) else tugas
+        st.success(f"Tugas '{nama_tugas}' berhasil dihapus!")
