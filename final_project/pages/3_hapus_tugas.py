@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("❌ Hapus Tugas")
+st.title("🗑️ Hapus Tugas")
 
 if "list_tugas" not in st.session_state:
     st.session_state.list_tugas = []
@@ -15,4 +15,5 @@ else:
         tugas = st.session_state.list_tugas.pop(index)
         # Jika tugas adalah dict, gunakan nama tugas untuk pesan
         nama_tugas = tugas.get("nama") if isinstance(tugas, dict) else tugas
+
         st.success(f"Tugas '{nama_tugas}' berhasil dihapus!")
