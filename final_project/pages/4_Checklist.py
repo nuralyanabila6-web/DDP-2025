@@ -6,11 +6,9 @@ st.title("✅ Tandai Tugas Selesai")
 if "list_tugas" not in st.session_state:
     st.session_state.list_tugas = []
 
-# ================= FUNCTION =================
 def tandai_selesai(index):
     """Menandai tugas sebagai selesai berdasarkan index"""
     st.session_state.list_tugas[index]["selesai"] = True
-# ============================================
 
 if len(st.session_state.list_tugas) == 0:
     st.info("Tidak ada tugas untuk ditandai.")
@@ -34,4 +32,5 @@ else:
             # Rerun agar tampilan daftar terupdate segera
             st.experimental_rerun()
         else:
+
             st.warning("Tugas ini sudah selesai.")
