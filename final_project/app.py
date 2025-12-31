@@ -21,6 +21,10 @@ if "list_tugas" not in st.session_state:
 
     st.session_state.list_tugas = []
 
+def tampilkan_pesan_salam():
+    st.info("Selamat datang! Silakan isi data.")
+tampilkan_pesan_salam()
+
 
 
 
