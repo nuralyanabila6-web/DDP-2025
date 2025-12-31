@@ -18,9 +18,13 @@ Fitur:
 def about_developer():
     st.header("👨‍💻 Tentang Pengembang")
     st.markdown("""
-    **Nama:** John Doe  
-    **NIM:** 123456789  
-    **Program Studi:** Teknik Informatika  
-    **Universitas:** Universitas Contoh  
+    **Nama Program:** Beressin  
+    **Kelompok:** 17  
+    **Mata Kuliah:** Sistem Informasi  
+    **Anggota Kelompok:** 
+    - Adi Ardiansah (0110120119)  
+    - Ahmad Fathi Ahlul Rayan (0110125020)
+    - Nur Alya Nabila (0110125035)  
+    - Revan Putri Cahya Rani (0110125092)  
     """)
 about_developer()
