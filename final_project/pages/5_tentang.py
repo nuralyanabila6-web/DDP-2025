@@ -13,6 +13,13 @@ Fitur:
 
 """)
 
-def luaspersegi(sisi):
-    print(f"luas persegi dengan sisi {sisi} adalah {sisi * sisi}")
 
+
+def about_developer():
+    st.header("👨‍💻 Tentang Pengembang")
+    st.markdown("""
+    **Nama:** John Doe  
+    **NIM:** 123456789  
+    **Program Studi:** Teknik Informatika  
+    **Universitas:** Universitas Contoh  
+    """)
