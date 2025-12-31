@@ -18,4 +18,9 @@ else:
 
         st.success(f"Tugas '{nama_tugas}' berhasil dihapus!")
 
+def ikan():
+    st.subheader("Ikan")
+    st.write("Ikan adalah hewan air yang bernapas menggunakan insang dan biasanya memiliki sirip.")
+
+ikan()
 
