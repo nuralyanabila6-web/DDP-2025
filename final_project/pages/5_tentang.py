@@ -23,3 +23,4 @@ def about_developer():
     **Program Studi:** Teknik Informatika  
     **Universitas:** Universitas Contoh  
     """)
+about_developer()
