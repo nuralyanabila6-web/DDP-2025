@@ -13,3 +13,6 @@ Fitur:
 
 """)
 
+def luaspersegi(sisi):
+    print(f"luas persegi dengan sisi {sisi} adalah {sisi * sisi}")
+
