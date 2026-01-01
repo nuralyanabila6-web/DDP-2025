@@ -18,9 +18,9 @@ else:
 
         st.success(f"Tugas '{nama_tugas}' berhasil dihapus!")
 
-def ikan():
-    st.subheader("Ikan")
-    st.write("Ikan adalah hewan air yang bernapas menggunakan insang dan biasanya memiliki sirip.")
+def hapus():
+    st.subheader("Quotes")
+    st.write("Dia yang setiap pagi merencanakan transaksi hari itu dan mengikuti rencana itu membawa benang yang akan membimbingnya melalui labirin kehidupan yang paling sibuk. - Victor Hugo")
 
-ikan()
+hapus()
 

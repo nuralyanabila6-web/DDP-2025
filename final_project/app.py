@@ -5,7 +5,7 @@ st.set_page_config(page_title="Beressin", page_icon="📝")
 st.title("📝 Selamat Datang di Aplikasi Beressin!")
 st.write("Aplikasi Task Manajer sederhana.")
 
-st.image("https://cdn-icons-png.flaticon.com/512/8297/8297557.png", width=150)
+st.image("https://icons8.com/icon/v2yWrI01aECu/reminders", width=150)
 
 st.markdown("""
 ### Menu Navigasi:
