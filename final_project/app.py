@@ -5,7 +5,7 @@ st.set_page_config(page_title="Beressin", page_icon="📝")
 st.title("📝 Selamat Datang di Aplikasi Beressin!")
 st.write("Aplikasi Task Manajer sederhana.")
 
-st.image("pages/prioritize.png", width=150)
+st.image("https://cdn-icons-png.flaticon.com/512/8297/8297557.png", width=150)
 
 st.markdown("""
 ### Menu Navigasi:
@@ -24,6 +24,7 @@ if "list_tugas" not in st.session_state:
 def tampilkan_pesan_salam():
     st.info("Selamat datang! Silakan isi data.")
 tampilkan_pesan_salam()
+
 
 
 
